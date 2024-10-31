@@ -36,7 +36,17 @@ Stringified error:  {
 
     // ...
 
-
+      "maxCachedSessions": 100,
+      "_sessionCache": {
+        "map": {},
+        "list": []
+      }
+    },
+    "method": "get",
+    "url": "https://news.ycombinator.com/item?id=41966114"
+  },
+  "code": "ETIMEDOUT"
+}
 Axios no response error. Request: [object Object] undefined
 /home/username/Desktop/axios-timeout-error-demo/src/axios-instance.ts:52
   return new Error(message);
